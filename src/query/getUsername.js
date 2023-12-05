@@ -1,5 +1,5 @@
-const getUsername = (username) => {
-    return `{ matchedUser(username: "${username}") {
+const getUsername = () => {
+    return `{ matchedUser(username: "yonadilla") {
       username
       submitStats: submitStatsGlobal {
         acSubmissionNum {

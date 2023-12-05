@@ -1,5 +1,5 @@
-const languageStats = (username) => {
-  return `{matchedUser(username: "${username}"){
+const languageStats = () => {
+  return `{matchedUser(username: "yonadilla"){
             languageProblemCount {
                 languageName
                 problemsSolved
